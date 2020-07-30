@@ -1,5 +1,5 @@
 {
-  "name": "mkt-live-server",
+  "name": "@moketao/mkt-live-server",
   "version": "1.2.1",
   "description": "simple development http server with live reload capability",
   "keywords": [
@@ -10,7 +10,7 @@
     "http",
     "cli"
   ],
-  "author": "Tapio Vierros",
+  "author": "moketao",
   "dependencies": {
     "chokidar": "^2.0.4",
     "colors": "latest",
@@ -39,6 +39,9 @@
   },
   "bin": {
     "mkt-live-server": "./mkt-live-server.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/moketao"
   },
   "repository": {
     "type": "git",
