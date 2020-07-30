@@ -1,5 +1,5 @@
 {
-  "name": "live-server",
+  "name": "mkt-live-server",
   "version": "1.2.1",
   "description": "simple development http server with live reload capability",
   "keywords": [
@@ -33,16 +33,16 @@
     "supertest": "^3.3.0"
   },
   "scripts": {
-    "lint": "eslint live-server.js index.js",
-    "hint": "jshint live-server.js index.js",
+    "lint": "eslint mkt-live-server.js index.js",
+    "hint": "jshint mkt-live-server.js index.js",
     "test": "mocha test --exit && npm run lint"
   },
   "bin": {
-    "live-server": "./live-server.js"
+    "mkt-live-server": "./mkt-live-server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tapio/live-server.git"
+    "url": "https://github.com/moketao/mkt-live-server.git"
   },
   "engines": {
     "node": ">=0.10.0"
